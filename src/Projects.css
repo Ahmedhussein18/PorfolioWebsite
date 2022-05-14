@@ -1,0 +1,47 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects h1 {
+
+}
+
+.project-container{
+    padding-top: 100px; ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.img-container img{
+align-items:0px ;
+width: 650px;
+height: 320px;
+box-shadow: -10px 5px 5px black;
+}
+.text-container p{
+    margin-left: 25px;
+font-size: 19px;
+    font-family: "Poppins Light";
+}
+.text-container h2 {
+    margin-left: 25px;
+    font-size: 40px;
+    font-family: "Poppins Light";
+}
+.text-container .highlighted-btn {
+    margin-left: 25px;
+    font-size: 20px;
+    background-color: var(--dark-orange);
+}
+
+.text-container .highlighted-btn:hover {
+    margin: 0 0 0 28px;
+    background-color: cornsilk;
+    color: #111;
+}
+
