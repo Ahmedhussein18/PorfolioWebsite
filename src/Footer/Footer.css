@@ -6,10 +6,11 @@
     justify-content: center;
 }
 .footer-parent{
+    /* background-color: white; */
     width: 100%;
     height: 100%;
     max-width: 1920px;
-
+    
 }
 .footer-parent img{
     max-width: 100%;
