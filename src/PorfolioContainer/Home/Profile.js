@@ -1,6 +1,7 @@
 import React from "react";
 import Typical from "react-typical";
 import './Profile.css'
+import { GrFacebook,GrInstagram,GrLinkedin } from 'react-icons/gr';
 export default function Profile() {
   return (
     <div className="profile-container">
@@ -9,13 +10,13 @@ export default function Profile() {
           <div className="colz">
               <div className="colz-icon">
             <a href="https://www.facebook.com/AhmedHUSSeinyoussef/">
-              <i className="fa fa-facebook-square"></i>
+              <GrFacebook style={{color:"white"}}/>
             </a>
             <a href="https://www.instagram.com/ahmedhusseiiin/">
-              <i className="fa fa-instagram"></i>
+              <GrInstagram style={{color:"white"}}/>
             </a>
             <a href="https://www.linkedin.com/in/ahmed-marzouk-39b866239/">
-              <i className="fa fa-linkedin-square"></i>
+              <GrLinkedin style={{color:"white"}}/>
             </a>
 
               </div>
