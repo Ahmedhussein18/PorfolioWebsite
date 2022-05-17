@@ -50,6 +50,7 @@ export default function Profile() {
               </span>
             </span>
           </div>
+          <p>The website is still under construction</p>
           <div className="profile-options">
             <button className="btn primary-btn"> Hire Me </button>
             <a href="Ahmed Hussein.pdf" download="Ahmed Hussein's cv.pdf">
@@ -57,9 +58,10 @@ export default function Profile() {
             </a>
           </div>
         </div>
-        <p>The website is still under construction</p>
+        
         <div className="profile-picture">
             <div className="profile-picture-background"></div>
+            
         </div>
         </div>
         </div>
