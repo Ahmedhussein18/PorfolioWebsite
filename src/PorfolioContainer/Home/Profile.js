@@ -57,6 +57,7 @@ export default function Profile() {
             </a>
           </div>
         </div>
+        <p>The website is still under construction</p>
         <div className="profile-picture">
             <div className="profile-picture-background"></div>
         </div>
