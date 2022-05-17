@@ -22,7 +22,7 @@
 }
 .profile-details-role h1{
    font-size: 40px;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 .primary-text{
     color: (--white);

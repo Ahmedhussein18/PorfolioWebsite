@@ -1,6 +1,6 @@
 :root {
   --light-blue: #04C3FF;
-  --light-blue-shadow: rgb(69 211 255 / 27%);
+  --light-blue-shadow: rgba(5, 70, 90, 0.27);
   --sea-green: #0ABEAD;
   --sea-green-dark: #0CBFAE;
   --sea-green-extra-dark: #09BEAD;
@@ -17,4 +17,45 @@
   --toast-shadow: #9c9c9ce3;
   --toast-success: #0CBFAE;
   --loader-color: #0CBFAE
+}
+
+.about-container{
+  background-image: url("bg.jpg");
+  display: flex;
+  flex-direction:column ;
+  color: white;
+}
+.about-container p{
+  text-align: center;
+  font-size: 20px;
+  font-family: "Poppins Light";
+}
+.about-container h1{
+  text-align: center;
+}
+.contact-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.contact-container input{
+  font-size: 30px;
+  padding: 10px;
+  width: 800px;
+}
+.contact-container .highlighted-btn {
+  border-radius: 25px;
+  padding: 20px 20px;
+  font-family: "Poppins Light";
+  margin-left: 25px;
+  font-size: 15px;
+  background-color: var(--dark-orange);
+}
+
+.contact-container .highlighted-btn:hover {
+  margin: 0 0 0 28px;
+  background-color: cornsilk;
+  color: #111;
 }
